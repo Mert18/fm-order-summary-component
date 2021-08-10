@@ -15,6 +15,9 @@
   align-items: center;
   background: $very-pale-blue;
   margin-bottom: 3rem;
+  -webkit-box-shadow: 10px 7px 65px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 7px 65px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 7px 65px -22px rgba(0, 0, 0, 0.75);
 }
 
 .card-head {
@@ -88,6 +91,9 @@
   background: $bright-blue;
   font-weight: 700;
   color: $pale-blue;
+  -webkit-box-shadow: 10px 7px 65px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 7px 65px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 7px 65px -22px rgba(0, 0, 0, 0.75);
 }
 #proceed:hover {
   background: $bright-bluehover;
