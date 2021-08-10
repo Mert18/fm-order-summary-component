@@ -1,0 +1,104 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $very-pale-blue;
+  margin-bottom: 3rem;
+}
+
+.card-head {
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+  }
+}
+
+.card-body {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+.card-body h2 {
+  padding: 2rem;
+  color: $dark-blue;
+}
+.card-body p {
+  padding: 2rem;
+  color: $desaturated-blue;
+}
+
+.card-body-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $very-pale-blue;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.card-body-plan-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-body-plan-left-center {
+  margin-top: 1rem;
+}
+.card-body-plan-left-center h3 {
+  color: $dark-blue;
+}
+.card-body-plan a {
+  color: $bright-blue;
+}
+.card-body-plan a:hover {
+  color: $bright-bluehover;
+}
+
+.card-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.card-foot button {
+  padding: 1rem 2rem;
+  width: 80%;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  height: 7vh;
+}
+
+#proceed {
+  background: $bright-blue;
+  font-weight: 700;
+  color: $pale-blue;
+}
+#proceed:hover {
+  background: $bright-bluehover;
+  cursor: pointer;
+}
+#cancel {
+  color: $desaturated-blue;
+  font-weight: 700;
+  background: transparent;
+}
+#cancel:hover {
+  color: $dark-blue;
+  cursor: pointer;
+}
